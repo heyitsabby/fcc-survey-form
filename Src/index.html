@@ -21,6 +21,46 @@
                     <h1 id="title">freeCodeCamp Survey Form</h1>
                     <p id="description">Thank you for taking the time to help us improve the platform.</p>
                 </header>
+                <section id="about-you">
+                    <h2>About You</h2>
+                    <div class="form-group">
+                        <label for="name">Name
+                            <input name="name" id="name" type="text" placeholder="Enter your name" required>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email
+                            <input name="email" type="email" id="email" placeholder="Enter your email" required>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="age">Age (optional)
+                            <input name="age" type="number" id="age" placeholder="Age" min="10" max="99">
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="genders">Gender (optional)
+                            <select name="genders" id="genders">
+                                <option value="">Choose gender</option>
+                                <option value="female">Female</option>
+                                <option value="male">Male</option>
+                                <option value="other">Other</option>
+                                <option value="prefer-not-to-say">Prefer not to say</option>
+                            </select>
+                        </label>
+                    </div>
+                    <div class="form-group">
+                        <label for="roles">What is your current role?
+                            <select name="roles" id="roles">
+                                <option value="">Choose role</option>
+                                <option value="student">Student</option>
+                                <option value="full-time">Full-time Job</option>
+                                <option value="other">Other</option>
+                                <option value="prefer-not-to-say">Prefer not to say</option>
+                            </select>
+                        </label>
+                    </div>
+                </section>
             </form>
         </main>
     </div>
