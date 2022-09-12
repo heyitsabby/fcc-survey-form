@@ -380,6 +380,7 @@ main {
 .logo {
     margin: 0 auto;
     display: block;
+    width: 100px;
 }
 
 form {
